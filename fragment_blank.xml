@@ -1,0 +1,326 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00A1F8">
+
+                    <ImageView
+                        android:id="@+id/header_image2"
+                        android:layout_width="400dp"
+                        android:layout_height="400dp"
+
+                        android:rotation="5"
+                        android:src="@drawable/page1" />
+
+
+                    <FrameLayout
+                        android:id="@+id/custom_view1"
+                        android:layout_width="520dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="391dp"
+                        android:background="@drawable/frame_style"
+                        android:backgroundTint="#2FFF00" />
+
+                    <FrameLayout
+                        android:id="@+id/custom_view"
+                        android:layout_width="520dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="400dp"
+                        android:background="@drawable/frame_style" />
+
+
+                    <TextView
+                        android:id="@+id/textclickable1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="412dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:letterSpacing="0.05"
+                        android:padding="10dp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="4"
+                        android:text="Become a Seller"
+                        android:textColor="#ffffff"
+                        android:textSize="34sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dev_about1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="465dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/underlined_text2"
+
+                        android:textColor="#FFEA00"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/continue2141"
+                        android:layout_width="230dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="76dp"
+                        android:layout_marginTop="506dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/main_style"
+                        android:backgroundTint="#FFEA00"
+                        android:text="   Start "
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/continue211"
+                        android:layout_width="220dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="86dp"
+                        android:layout_marginTop="516dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/button_start"
+                        android:backgroundTint="#11ED91"
+                        android:text="Become a Seller"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/haveaccout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="99dp"
+                        android:layout_marginTop="595dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="Have an Account? Login"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#189DA9">
+                    <ImageView
+                        android:id="@+id/africa22"
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="90dp"
+                        android:rotation="5"
+                        android:src="@drawable/secondpage" />
+                    <FrameLayout
+                        android:id="@+id/custom_view3"
+                        android:layout_width="420dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginTop="390dp"
+                        android:backgroundTint="#76FF03"
+                        android:background="@drawable/frame_styel3"
+                        android:layout_marginStart="0dp"
+                        />
+                    <FrameLayout
+                        android:id="@+id/custom_view44"
+                        android:layout_width="420dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginTop="400dp"
+                        android:background="@drawable/frame_styel3"
+                        android:layout_marginStart="0dp"/>
+
+
+                    <TextView
+                        android:id="@+id/textclickable1133"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="53dp"
+                        android:layout_marginTop="420dp"
+                        android:letterSpacing="0.05"
+                        android:text="Become a Buyer!"
+                        android:textColor="#ffffff"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/dev_about2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="460dp"
+                        android:text="@string/underlined_text2"
+
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/continue21413"
+                        android:layout_width="310dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="56dp"
+                        android:layout_marginTop="506dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/main_style"
+                        android:backgroundTint="#FFEA00"
+                        android:text="Start Learning"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:id="@+id/continue2f11q"
+                        android:layout_width="310dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="56dp"
+                        android:layout_marginTop="516dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/button_start"
+                        android:backgroundTint="#11ED91"
+                        android:text="Become a Buyer"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/haveaccout1311"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="126dp"
+                        android:layout_marginTop="605dp"
+                        android:text="Have an Account? Login"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingEnd="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#4CAF50">
+                    <ImageView
+                        android:id="@+id/continue2112222"
+                        android:layout_width="350dp"
+                        android:layout_height="300dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="85dp"
+                        android:rotation="5"
+                        android:src="@drawable/logo3rd" />
+                    <FrameLayout
+                        android:id="@+id/custom_view4"
+                        android:layout_width="420dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginTop="390dp"
+                        android:backgroundTint="#76FF03"
+                        android:background="@drawable/frame_style4"
+                        android:layout_marginStart="0dp"
+                        />
+                    <FrameLayout
+                        android:id="@+id/custom_view5"
+                        android:layout_width="420dp"
+                        android:layout_height="1000dp"
+                        android:layout_marginTop="400dp"
+                        android:background="@drawable/frame_style4"
+                        android:layout_marginStart="0dp"/>
+
+                    <TextView
+                        android:id="@+id/textclickable113q3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="430dp"
+                        android:letterSpacing="0.05"
+                        android:text="Join Affiliate Program"
+                        android:textColor="#ffffff"
+                        android:textSize="29sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/dev_about3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="215dp"
+                        android:layout_marginTop="470dp"
+                        android:text="@string/underlined_text2"
+
+                        android:textColor="#FFEA00"
+                        android:textSize="20sp" />
+                    <Button
+                        android:id="@+id/continue213413"
+                        android:layout_width="310dp"
+                        android:layout_height="70dp"
+                        android:layout_marginStart="56dp"
+                        android:layout_marginTop="526dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/main_style"
+                        android:backgroundTint="#FFEA00"
+                        android:text="Start Learning"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <Button
+                        android:id="@+id/continue2f11"
+                        android:layout_width="310dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="526dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/button_start"
+                        android:backgroundTint="#11ED91"
+                        android:text="Start Learning"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/haveaccout311111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="106dp"
+                        android:layout_marginTop="620dp"
+                        android:text="Have an Account? Login"
+                        android:textColor="#ffffff"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

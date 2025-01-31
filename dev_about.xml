@@ -1,0 +1,128 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/firstTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Developers About Page:"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:elevation="1dp"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:contentDescription="Pakistan Logo"
+            android:src="@drawable/nauman" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounded_corners"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/firstTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-medium"
+                android:text=" Nauman Irshad Ali"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstTextView"
+                android:fontFamily="sans-serif"
+                android:text="   Java &amp; Flutter App Developer"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:elevation="1dp"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="61dp"
+            android:layout_height="57dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:contentDescription="Pakistan Logo"
+            android:src="@drawable/abdullah" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:padding="2dp">
+
+
+            <TextView
+                android:id="@+id/firstTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="  Abdullah Habib"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstTextView1"
+                android:fontFamily="sans-serif"
+                android:text="   Java &amp; C++ App Developer"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

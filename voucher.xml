@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#b59896"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voucher &amp; Discount"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            /><!-- Repeatable FrameLayout Block -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+
+        </FrameLayout>
+
+        <!-- Repeat this FrameLayout block as many times as needed -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView5"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView7"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:id="@+id/collectImageView8"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bannerone" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="260dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/collect1" />
+
+        </FrameLayout>
+        <!-- Add more FrameLayout blocks here -->
+    </LinearLayout>
+
+</ScrollView>

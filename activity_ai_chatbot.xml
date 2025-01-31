@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".AI_Chatbot">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/jovix"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="140dp"
+
+        android:contentDescription="Flag icon" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+
+        android:orientation="horizontal">
+
+        <!-- Title Text -->
+        <EditText
+            android:id="@+id/eTPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:ems="100"
+            android:hint="Prompt.."
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000" />
+
+
+        <ImageView
+            android:id="@+id/btnSubmit"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_background"
+            android:clickable="true"
+            android:contentDescription="Delete note"
+            android:src="@drawable/baseline_arrow_back_24" />
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tVResult"
+            android:padding="10dp"
+            android:layout_margin="14dp"
+            android:background="@drawable/border_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Output:" />
+    </ScrollView>
+</LinearLayout>

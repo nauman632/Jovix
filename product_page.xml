@@ -1,0 +1,117 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#ffffff"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/goback_button"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="6dp"
+            android:contentDescription="Back button"
+            android:src="@drawable/baseline_arrow_back_24" />
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/textColorPrimary"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_background"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/girls5" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_marginEnd="8dp"
+                android:background="#ffffff"
+                android:src="@drawable/girls2"
+
+           />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/girls3"
+                android:background="@drawable/rounded_background"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/girls4"
+                android:background="@drawable/rounded_background"
+                android:scaleType="centerCrop" />
+</LinearLayout>
+        </HorizontalScrollView>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="5dp"
+android:text="Elegant Floral Suit for Women "
+android:textColor="#000000"
+android:textStyle="bold"
+android:textSize="20dp">
+
+</TextView>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:text="$40"
+    android:textColor="#6055D8"
+    android:textStyle="bold"
+    android:textSize="50dp">
+
+</TextView>
+
+
+    <ImageView
+        android:id="@+id/buynow1"
+        android:layout_width="210dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/add5"
+        android:text="Buy Now">
+
+    </ImageView>
+
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

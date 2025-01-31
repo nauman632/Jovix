@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="start"
+            android:contentDescription="Back button"
+            android:onClick="onBackButtonClicked"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textStyle="bold"
+            android:text="Personal Infomation"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/tvOpenAct2ivity4"
+            android:layout_width="48dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="Back button"
+            android:src="@drawable/girl_image"
+            android:onClick="onBackButtonClicked" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000000"
+            android:hint="Abdullah Habib"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14dp">
+
+        </EditText>
+    </LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/tvOpenActivi2ty4"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Back button"
+        android:src="@drawable/baseline_confirmation_number_24"
+        android:onClick="onBackButtonClicked" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000000"
+        android:hint="+92333438803"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14dp">
+
+    </EditText>
+</LinearLayout><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/tvOpenActivity4"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Back button"
+        android:src="@drawable/baseline_add_location_24"
+        android:onClick="onBackButtonClicked" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000000"
+        android:hint="325 15th Eighth Avenue, NewYork"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="14dp">
+
+    </EditText>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/tvOpenActivity5"
+            android:layout_width="48dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="Back button"
+            android:src="@drawable/baseline_access_time_24"
+            android:onClick="onBackButtonClicked" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000000"
+            android:hint="6:00 pm, Wednesday 20"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="14dp">
+
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/collectImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:background="@color/colorPrimary"
+        android:text="Save Changes"
+        android:clickable="true"
+        android:focusable="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Your Voucher &amp; Discount:"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+
+        />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bannerone" />
+
+        <ImageView
+            android:id="@+id/image11"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/useit" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bannerone" />
+
+        <ImageView
+            android:id="@+id/image113"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/useit" />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bannerone" />
+
+        <ImageView
+            android:id="@+id/image131"
+            android:layout_width="60dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:src="@drawable/useit" />
+
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>
+
